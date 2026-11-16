@@ -68,6 +68,44 @@ Plain HTML, CSS, and JavaScript on a single `<canvas>`. Sprites are packed into 
 - Boss phases
 - Music and a longer arena
 
+  ## What's new in v2.0.0
+
+### 🎮 Character select
+- New "Choose Your Fighter" screen: Leo Das, Parthiban, and a locked "???" slot
+- Tap a card or use the arrows to choose, with a gold highlight on the selected fighter
+- Level picker with locked/unlocked levels; progress, coins and upgrades are saved
+
+### 🗺️ Levels
+- **Level 1 – The Arena**
+- **Level 2 – The Market** (new background)
+- **Level 3 – The Warehouse** (new background)
+- 50 enemies and a boss in every level, with higher difficulty in later levels
+- Three different bosses: the original, a brute with ground slams, and a boss that enrages at half health
+- The "LEO… LEO… LEOOOO" finale plays after the Level 3 boss
+
+### 🔫 Weapons
+- 12 weapons: pistol, revolver, SMG, assault rifle, AK-47, shotgun, knife, axe, hammer, pipe, bat, baton
+- Armed animations for each weapon class, with reload, muzzle flash and ejected casings
+- Auto-fire for SMG and rifles (hold attack)
+- Grenades with an explosion effect
+
+### 🧱 World and loot
+- Breakable crates, barrels and chests that drop loot
+- Decorations: torches, posts and banners
+- Pickups: coins, medkits, ammo, awmmo crates, grenades, weapons
+
+### 🕹️ Controls and UI (landscape and fullscreen)
+- 16:9 landscape layout with a fullscreen button
+- Thumbstick, ATTACK, KICK, JUMP, SPECIAL, GUARD and grenade buttons
+- New HUD: portrait, health and special bars, Level/Wave/KO plates, mission box, coin counter, weapon plate
+- Top-bar icons: auto-attack, fast-forward, mute, medkit, fullscreen, pause
+- Game Menu, Inventory and Upgrade screens
+- Victory and Defeat screens, with toasts for pickups
+
+### 🔧 Notes
+- Armed poses use new sprite frames, while kick, special, jump and hit still use the older frames
+- File size is about 6.6 MB (all art is embedded in `index.html`)
+
 ## ⚠️ Disclaimer
 
 This is an unofficial, non-commercial fan project made for fun. It is not affiliated with or endorsed by the makers of the film *Leo*. All characters and film references belong to their respective owners. The sprite and background art was supplied by the project owner; replace it with your own or licensed art before using this game commercially.
